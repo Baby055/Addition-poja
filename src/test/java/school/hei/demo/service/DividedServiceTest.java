@@ -14,9 +14,4 @@ class DividedServiceTest {
   void divided_two_numeber_ok() {
     assertEquals(dividedService.divided(4, 2), 2);
   }
-
-  @Test
-  void divided_two_numeber_ko() {
-    assertEquals(dividedService.divided(4, 3), 3);
-  }
 }

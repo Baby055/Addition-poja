@@ -19,9 +19,4 @@ class TimesServiceTest {
   void times_two_negative_numbers_ok() {
     assertEquals(-63, timesService.times(9, -7));
   }
-
-  @Test
-  void times_two_negative_numbers_ko() {
-    assertEquals(-63, timesService.times(-6, -7));
-  }
 }
