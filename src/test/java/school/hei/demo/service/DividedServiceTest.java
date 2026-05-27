@@ -7,16 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TimesServiceTest {
-  @Autowired private TimesService timesService;
+class DividedServiceTest {
+  @Autowired private DividedService dividedService;
 
   @Test
-  void times_two_positive_numbers_ok() {
-    assertEquals(4, timesService.times(2, 2));
-  }
-
-  @Test
-  void times_two_negative_numbers_ok() {
-    assertEquals(-63, timesService.times(9, -7));
+  void divided_two_numeber_ok() {
+    assertEquals(dividedService.divided(4, 2), 2);
   }
 }
