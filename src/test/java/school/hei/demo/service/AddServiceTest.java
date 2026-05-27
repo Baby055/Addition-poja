@@ -8,8 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class AddServiceTest {
-  @Autowired
-  private AddService addService;
+  @Autowired private AddService addService;
 
   @Test
   void add_two_positive_numbers_ok() {
